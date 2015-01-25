@@ -30,7 +30,7 @@ public:
 
 int main()
 {
-    vector<int> list{1,2,3,4,4,4,4};    
+    vector<int> list{1,1,2,2,1,1,3,3};    
     solution sl;
     cout << sl.majorityNumber(list)<<endl;
     return 0;

@@ -1,2 +1,5 @@
 #ignore the test folder
 Test
+
+#ignore all the out file
+*.out
