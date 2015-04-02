@@ -19,7 +19,7 @@ public:
     bool frontCampare( TreeNode *node1, TreeNode *node2 )
     {
     	if(( node1 == NULL ) || ( node2 == NULL ))
-    		return (( node1 == NULL ) && ( node2 == NULL ))
+    		return (( node1 == NULL ) && ( node2 == NULL ));
     	if( node1->val == node2->val )
 	    {
     		bool inFlag = true;
